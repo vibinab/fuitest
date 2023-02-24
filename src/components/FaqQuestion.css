@@ -1,0 +1,21 @@
+.accimagecontent .accimage {
+    height: 50%;
+    width: 50%;
+}
+.accimagecontent {
+    display: flex;
+    justify-content: center;
+}
+.faqcontenthead {
+    padding: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .accimagecontent .accimage {
+        height: 90%;
+        width: 90%;
+    }
+    .faqcontenthead {
+        padding: 2rem;
+    }
+  }

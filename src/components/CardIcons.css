@@ -1,0 +1,19 @@
+.iconimage {
+    height: 70%;
+    width: 70%;
+}
+.cardmain {
+    padding: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardmain {
+        padding: 2rem;
+    }
+    
+    .iconimage {
+        height: 90%;
+        width: 90%;
+        margin-top: 2rem;
+    }
+  }

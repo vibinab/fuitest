@@ -1,0 +1,103 @@
+.shead {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:0.5rem;
+}
+
+
+.searchcontent{
+    text-align: center;
+}
+
+.searchcontentmain {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+
+.searchcontent1 {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.searchcontent1 p {
+    margin-top: 0.8rem;
+}
+
+.searchcontent1 .firstp {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.searchcontent1 .secondp {
+    line-height: 1rem;
+}
+
+
+.searchboxfield {
+    display: flex;
+    justify-content: center;
+   
+}
+.searchboxfield div {
+    margin-left: 0.5rem;
+}
+
+.searchinput {
+    width:32rem;
+    height:2rem;
+    /* background-color: lightgrey; */
+}
+
+.searchboxfield {
+    margin-top: 1rem;
+}
+
+.searchboxfield .searchinputbtn {
+    background-color:purple;
+    opacity: 0.5;
+  
+    color:white;
+    width: 5rem;
+}
+.shead {
+    width: 31rem;
+     padding:0.5rem;
+ }
+ .read {
+    margin-left: 0.5rem;
+    color:blue
+ }
+
+
+
+@media only screen and (max-width: 600px) {
+   
+    .searchinput {
+        width:12rem;
+        padding:0.2rem;
+    }
+    .searchcontent1 .firstp {
+        font-size: 1.3rem;
+    }
+
+    .searchcontent1{
+        padding:1.5rem;
+    }
+    .searchboxfield {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchboxfield .searchinputbtn{
+        margin-top: 0.5rem;
+    }
+    .shead {
+       width: 90%;
+        padding:1rem;
+    }
+    
+    
+    
+  }

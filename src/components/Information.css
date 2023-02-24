@@ -1,0 +1,49 @@
+.kittytext{
+    padding: 5rem;
+}
+.kittytext ul li {
+    list-style: none;
+   
+}
+.kittytext span {
+    margin-left: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.keyhead {
+    display: flex;
+    /* justify-content: center; */
+   
+    
+}
+.keyhead div{
+    /* border: 2px solid black; */
+    text-align:left;
+    padding-left: 0.3rem;
+}
+
+@media only screen and (max-width: 600px) { 
+   
+    .kittytext h3 {
+        font-size: 1.5rem;
+    }
+   .kittytext {
+    text-align:center;
+    padding: 1.5rem;
+   }
+   .keylist {
+    margin-left: 0rem;
+    margin-top: 1rem;
+   }
+   .keyghighp {
+    margin-top: 1rem;
+   }
+   .secondhh {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+   }
+  
+
+  }
+  

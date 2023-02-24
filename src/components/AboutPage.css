@@ -1,0 +1,61 @@
+.kittycontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+}
+
+
+.kittyimage {
+    height: 70%;
+    width: 70%;
+}
+.abouthead {
+    margin-bottom: -5rem;
+    padding-left: 4.5rem;
+    display: flex;
+    margin-top: 1rem;
+  
+}
+.abouthead div span{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+@media only screen and (max-width: 600px) { 
+    .kittycontent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .kittyimage {
+        height: 50%;
+        width: 50%;
+    }
+    .kittytext h3 {
+        font-size: 1.5rem;
+    }
+   .kittytext {
+    text-align:center;
+    padding: 2.5rem;
+   }
+  
+   .abouthead {
+    padding-left: 0.5rem;
+    display: flex;
+    margin-top: 1rem;
+    
+    margin-bottom: -3rem;
+    font-size: 1.2rem;
+  
+}
+.abouthead div span{
+    margin-left: 1rem;
+    margin-top: 0rem;
+    text-align: center;
+}
+
+  }
+  

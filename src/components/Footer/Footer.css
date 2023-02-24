@@ -1,0 +1,33 @@
+.footericon {
+    display: flex;
+    justify-content: center;
+}
+.footersub h3{
+    font-size: 0.9rem;
+}
+
+.footersublist li{
+list-style: none;
+margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .footersublist, .footersub{
+        text-align: center;
+        
+    }
+    .footersub {
+        margin-top: 3rem;
+    }
+    hr {
+        margin-left: 10%;
+    }
+   
+    .mainfooterlast {
+
+        display: flex;
+        justify-content: center;
+    }
+    
+   
+  }
